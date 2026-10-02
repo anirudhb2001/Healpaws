@@ -1,0 +1,40 @@
+.how-it-works-section {
+  background: #f4fdf9;
+  padding: 6rem 0;
+}
+
+.step-card {
+  background: white;
+  border-radius: 15px;
+  padding: 2rem 1rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.step-card:hover {
+  transform: translateY(-5px);
+  background-color: #d0f0e6;
+}
+
+.step-number {
+  background: #2d9f7b;
+  color: white;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  margin: 0 auto 1rem;
+}
+
+.step-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.step-desc {
+  color: #6b7280;
+}

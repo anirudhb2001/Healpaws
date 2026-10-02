@@ -1,0 +1,7 @@
+/* Global landing page container */
+.healpaws-landing {
+  font-family: "Poppins", sans-serif;
+  color: #1e3a3a;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}

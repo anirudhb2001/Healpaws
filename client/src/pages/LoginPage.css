@@ -1,0 +1,94 @@
+.login-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1050;
+}
+
+.login-popup {
+  background: #fff;
+  border-radius: 16px;
+  padding: 2rem 2.5rem;
+  width: 100%;
+  max-width: 520px;
+  position: relative;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  animation: fadeInUp 0.3s ease;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 18px;
+  border: none;
+  background: none;
+  font-size: 1.8rem;
+  color: #0b1d4d;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.close-btn:hover {
+  color: #55db79;
+  transform: scale(1.1);
+}
+
+.tab-buttons {
+  background: #f1f3f5;
+  border-radius: 8px;
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab-btn {
+  flex: 1;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #0b1d4d;
+}
+
+.tab-btn.active-tab {
+  background-color: #d8f3dc;
+  color: #0b1d4d;
+  box-shadow: 0 0 0 2px #55db79 inset;
+}
+
+.form-control {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 0.95rem;
+}
+
+.login-btn {
+  background-color: #55db79 !important;
+  color: #0b1d4d !important;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+.login-popup a {
+  text-decoration: none;
+  color: #198754;
+}
+
+.login-popup a:hover {
+  text-decoration: underline;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

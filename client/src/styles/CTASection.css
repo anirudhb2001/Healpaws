@@ -1,0 +1,43 @@
+.cta-section {
+  background: linear-gradient(135deg, #55db79, #2d9f7b);
+  color: white;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.cta-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.cta-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.btn-cta-primary {
+  background: white;
+  color: #2d9f7b;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 0.8rem 1.8rem;
+  border: none;
+}
+
+.btn-cta-secondary {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 0.8rem 1.8rem;
+}
+
+.btn-cta-primary:hover {
+  background: #0b1d4d;
+}
+
+.btn-cta-secondary:hover {
+  background: rgba(255, 255, 255, 0.15);
+}

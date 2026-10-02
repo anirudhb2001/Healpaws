@@ -1,0 +1,14 @@
+# Python virtual environments
+venv/
+ai-service/venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyd
+
+# Node
+node_modules/
+
+# OS
+.DS_Store

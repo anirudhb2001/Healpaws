@@ -1,0 +1,21 @@
+.footer {
+  background: #0b1d4d;
+  color: #ffffff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer-brand {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.paw-icon {
+  font-size: 1.5rem;
+}
+
+.footer-copy {
+  font-size: 0.9rem;
+  color: #d1d5db;
+  margin-top: 0.5rem;
+}
